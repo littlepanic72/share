@@ -1,0 +1,14 @@
+HTML Output: http://finance.yahoo.com/q/hp?s=300072.sz&d=7&e=23&f=2010&a=5&b=11&c=2010
+CSV Output: http://ichart.finance.yahoo.com/table.csv?s=300072.sz&d=7&e=23&f=2010&a=5&b=11&c=2010
+由于历史原因，也可以用地址 http://table.finance.yahoo.com/table.csv
+s: 股票代码 (e.g. 002036.SZ 300072.SZ 600036.SS 等)
+c-a-b: 起始日期年、月、日 (月份的起始索引为0) 2010-5-11 = 2010年6月11日
+f-d-e: 结束日期年、月、日 (月份的起始索引为0) 2010-7-23 = 2010年8月23日
+g: 时间周期。d=每日，w=每周，m=每月，v=只返回除权数据
+省略所有参数，只制定股票代码时，返回所有历史数据
+
+
+
+http://ichart.finance.yahoo.com/table.csv?s=300072.sz&d=1&e=7&f=2014&a=1&b=1&c=2013
+
+http://ichart.finance.yahoo.com/table.csv?s=300072.sz&d=1&e=7&f=2014&a=0&b=1&c=2013

@@ -1,0 +1,9 @@
+create table lp_hl
+(
+ date varchar(20),
+ code varchar(20),
+ day  int,
+ h    float,
+ l    float
+);
+
